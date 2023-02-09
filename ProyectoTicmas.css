@@ -1,0 +1,55 @@
+html {
+    background-image: url(pgfondo.jpg);
+    background-color: transparent;
+    width: 1250px;
+    padding: 5px;
+    margin: 5px;   
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    
+}
+.izquierda {
+    border-right: 5px solid #ccc;
+    padding-right: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white !important;
+}
+.derecha {
+    position: relative;
+    left: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+h5,h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: black;
+}
+.foto1 {
+    height: 180px;
+    width: 180px;
+    border: 2px solid black;
+}
+#boton {
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: goldenrod;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+}
+
+a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white !important;
+}
